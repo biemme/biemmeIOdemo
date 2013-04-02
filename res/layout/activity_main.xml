@@ -1,0 +1,168 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+<TextView
+    android:id="@+id/textView2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_x="12dp"
+    android:layout_y="20dp"
+    android:text="Switches status (Digital output):"
+    android:textColor="@color/white"
+    android:textColorHighlight="@color/white" />
+
+<TextView
+    android:id="@+id/textView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="14dp"
+    android:layout_marginRight="20dp"
+    android:layout_x="376dp"
+    android:layout_y="10dp"
+    android:text="www.biemmeitalia.net" 
+    android:textColorHighlight="@color/white"
+    android:textColor="@color/white"/>
+
+<TextView
+    android:id="@+id/textView3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="180dp"
+    android:layout_x="12dp"
+    android:layout_y="210dp"
+    android:text="Analog input:"
+    android:textColor="@color/white" />
+
+<ProgressBar
+    android:id="@+id/progressBar1"
+    style="?android:attr/progressBarStyleHorizontal"
+    android:layout_width="220dp"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="36dp"
+    android:layout_marginLeft="22dp"
+    android:layout_x="30dp"
+    android:layout_y="236dp"
+    android:max="1023" />
+
+
+
+<ToggleButton
+    android:id="@+id/toggleButton3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="282dp"
+    android:layout_y="54dp"
+    android:text="ToggleButton" />
+
+<ToggleButton
+    android:id="@+id/toggleButton2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="152dp"
+    android:layout_y="54dp"
+    android:text="ToggleButton" />
+
+<ToggleButton
+    android:id="@+id/toggleButton4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="414dp"
+    android:layout_y="54dp"
+    android:text="ToggleButton" />
+
+<ToggleButton
+    android:id="@+id/toggleButton1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="34dp"
+    android:layout_y="54dp"
+    android:text="ToggleButton" />
+
+<ImageView
+    android:id="@+id/imageView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="25dp"
+    android:layout_y="152dp"
+    android:src="@drawable/red_bulb" />
+
+<TextView
+    android:id="@+id/textView4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="180dp"
+    android:layout_x="274dp"
+    android:layout_y="125dp"
+    android:text="Light intensity (PWM):"
+    android:textColor="@color/white" />
+
+<TextView
+    android:id="@+id/textView3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="115dp"
+    android:layout_x="18dp"
+    android:layout_y="121dp"
+    android:text="Bulb status (Digital input):"
+    android:textColor="@color/white" />
+
+<ImageView
+    android:id="@+id/imageView3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="147dp"
+    android:layout_y="152dp"
+    android:src="@drawable/red_bulb" />
+
+<ImageView
+    android:id="@+id/imageView2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="82dp"
+    android:layout_y="152dp"
+    android:src="@drawable/yellow_bulb" />
+
+<ImageView
+    android:id="@+id/imageView4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="205dp"
+    android:layout_y="152dp"
+    android:src="@drawable/red_bulb" />
+
+<SeekBar
+    android:id="@+id/seekBar1"
+    android:layout_width="220dp"
+    android:layout_height="wrap_content"
+    android:layout_x="296dp"
+    android:layout_y="157dp"
+    android:max="128" />
+
+<TextView
+    android:id="@+id/temperature"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="395dp"
+    android:layout_y="230dp"
+    android:text="10 °C"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:textColor="@color/white" />
+
+<TextView
+    android:id="@+id/textView5"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="300dp"
+    android:layout_y="235dp"
+    android:text="Temperature:"
+    android:textColor="@color/white" />
+
+</AbsoluteLayout>
