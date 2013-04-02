@@ -1,1 +1,3 @@
-Android Project that communicate, using a native library, to devices using modbus protocol
+This project shows how to communicate to rs485 devices with Android. It leverages an Android native library.
+
+
